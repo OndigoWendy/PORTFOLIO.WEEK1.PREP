@@ -3,10 +3,10 @@
 }
 body {
   font-size: 12px;
-  background-color: rgb(233, 216, 219);
+  background-color: rgb(160, 138, 142);
 }
 .navbar {
-  background-color: #333;
+  background-color: #4d4d4f;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -31,35 +31,63 @@ body {
   color: white;
 }
 
+.sec1{
+display: flex;
+flex-direction: row;
+padding: 5% 3% 3% 1%;
+}
+
 .logo {
   padding: 5% 7%;
   float: left;
 }
 
 .responsive {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 .aboutme {
-  padding: 10% 0%;
-  font-size: large;
+  padding: 1% 3%;
+  font-size: 1.5vw;
   width: 100%;
   height: auto;
+  border:solid 1px ;
+  color:whitesmoke;
+  background-color: #4d4d4f;
+  
+  height: 300px;
 }
 
 .wrapper {
   display: grid;
-  gap: 10%;
-  background-color: whitesmoke;
+  gap: 5%;
+  background-color: rgb(160, 138, 142);
+  color: whitesmoke;
 }
 
-.page-wrap {
-  padding: 3em;
-  background-color: pink;
+
+.logo2 {
+  display: flex;
+   grid-column: 1;
+  grid-row: 2;
+  /* margin: 0% 70% 2% 0%; */
+  width: 25%;
+}
+
+.responsive1,
+.responsive2,.responsive3,.responsive4{
   width: 100%;
-  margin: 2% 2% 2% 20%;
-  grid-column: 1 / 2;
+  height: auto;
+  padding: 30%;
+  width: 100%;
+}
+.page-wrap {
+  padding: 5%;
+  background-color: #4d4d4f;
+  width: 90%;
+  margin: 1% 2% 2% 1%;
+  grid-column: 1 ;
   grid-row: 1;
 }
 
@@ -74,15 +102,16 @@ body {
   display: block;
   border-radius: 4px;
   height: 25px;
+  
 }
 
 .level1 {
   width: 20%;
-  background-color: red;
+  background-color: rgb(175, 85, 100)
 }
 .level2 {
   width: 40%;
-  background-color: rgb(182, 54, 54);
+  background-color: rgb(165, 92, 92);
 }
 .level3 {
   width: 60%;
@@ -90,11 +119,11 @@ body {
 }
 .level4 {
   width: 80%;
-  background-color: rgb(156, 54, 71);
+  background-color: rgb(153, 65, 80);
 }
 .level5 {
   width: 100%;
-  background-color: rgb(240, 63, 63);
+  background-color: rgb(133, 55, 68);
 }
 
 .skill-name {
@@ -111,20 +140,14 @@ body {
   color: #999;
 }
 
-.logo2 {
-  display: block;
-  grid-column: 2 / 2;
-  grid-row: 1;
-  margin: 2% 2% 2% 5%;
-  width: 80%;
+.education{grid-row: 1;
+grid-column: 2;
+width: 100%;
+background-color: #4d4d4f;
+padding: 3%;
+color: whitesmoke;
 }
 
-.responsive1,
-.responsive2 {
-  width: 100%;
-  height: auto;
-  padding-left: 30%;
-}
 
 /* @media screen and (max-width: 600px) {
   .screen-body {

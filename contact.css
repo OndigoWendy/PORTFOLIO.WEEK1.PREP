@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #333;
+  background-color: #4d4d4f;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -32,7 +32,7 @@
 
 body {
   font-size: 12px;
-  background-color: rgb(233, 216, 219);
+  background-color: rgb(160, 138, 142);
 }
 
 body, button, input {
