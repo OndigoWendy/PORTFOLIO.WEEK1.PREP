@@ -20,7 +20,7 @@
 }
 
 .navbar a.active {
-  background-color: pink;
+  background-color: #ea1d6f;
   color: white;
 }
 
@@ -45,11 +45,7 @@ body, button, input {
   border-radius: 15px;
 }
 
-/* .container {
-  flex: 0 1 700px;
-  margin: auto;
-  padding: 10px;
-} */
+
 
 .screen {
   position: relative;

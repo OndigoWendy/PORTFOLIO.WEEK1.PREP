@@ -27,7 +27,7 @@ body {
 }
 
 .navbar a.active {
-  background-color: pink;
+  background-color: #ea1d6f;
   color: white;
 }
 
