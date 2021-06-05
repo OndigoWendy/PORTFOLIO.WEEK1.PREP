@@ -56,7 +56,7 @@ padding: 5% 3% 3% 1%;
   color:whitesmoke;
   background-color: #4d4d4f;
   
-  height: 300px;
+  height: 27vw;
 }
 
 .wrapper {
@@ -79,7 +79,7 @@ padding: 5% 3% 3% 1%;
 .responsive2,.responsive3,.responsive4{
   width: 100%;
   height: auto;
-  padding: 30%;
+  padding: 2% 30% 10% 2% ;
   width: 100%;
 }
 .page-wrap {
@@ -107,23 +107,23 @@ padding: 5% 3% 3% 1%;
 
 .level1 {
   width: 20%;
-  background-color: rgb(175, 85, 100)
+  background-color: red
 }
 .level2 {
   width: 40%;
-  background-color: rgb(165, 92, 92);
+  background-color:orange;
 }
 .level3 {
   width: 60%;
-  background-color: rgb(175, 95, 95);
+  background-color: yellow;
 }
 .level4 {
   width: 80%;
-  background-color: rgb(153, 65, 80);
+  background-color: blue;
 }
 .level5 {
   width: 100%;
-  background-color: rgb(133, 55, 68);
+  background-color: violet;
 }
 
 .skill-name {
@@ -137,7 +137,7 @@ padding: 5% 3% 3% 1%;
   position: absolute;
   top: 5px;
   right: 10px;
-  color: #999;
+  color: black;
 }
 
 .education{grid-row: 1;
