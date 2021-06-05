@@ -7,7 +7,6 @@
 
 /* Style the links inside the navigation bar */
 
-  
 .navbar a {
   float: left;
   color: #f2f2f2;
@@ -29,13 +28,86 @@
   color: white;
 }
 
-
-
-.logo{padding: 5% 7%; float: left;}
+.logo {
+  padding: 5% 7%;
+  float: left;
+}
 
 .responsive {
   width: 100%;
   height: auto;
 }
+.responsive1,
+.responsive2 {
+  width: 20%;
+  height: auto;
+}
 
-.aboutme{padding: 10% 0%;font-size: large;  width: 100%; height: auto;}
+.responsive1 {
+}
+
+.aboutme {
+  padding: 10% 0%;
+  font-size: large;
+  width: 100%;
+  height: auto;
+}
+
+.logo2 {
+  display: inline;
+}
+
+.page-wrap {
+  padding: 2em;
+  background-color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skill-bar-container {
+  position: relative;
+  width: 50%;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  margin-bottom: 0.5em;
+}
+.skill-bar {
+  display: block;
+  border-radius: 4px;
+  height: 25px;
+}
+
+.level1 {
+  width: 20%;
+  background-color: red;
+}
+.level2 {
+  width: 40%;
+  background-color: rgb(182, 54, 54);
+}
+.level3 {
+  width: 60%;
+  background-color: rgb(175, 95, 95);
+}
+.level4 {
+  width: 80%;
+  background-color: rgb(156, 54, 71);
+}
+.level5 {
+  width: 100%;
+  background-color: rgb(240, 63, 63);
+}
+
+.skill-name {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #333;
+  font-weight: 600;
+}
+.skill-percent {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #999;
+}
