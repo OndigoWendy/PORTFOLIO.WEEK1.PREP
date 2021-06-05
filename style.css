@@ -148,16 +148,6 @@ padding: 3%;
 color: whitesmoke;
 }
 
-
-/* @media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
-  }
-
-  .screen-body-item {
-    padding: 0;
-  }
-} */
 .footer {
   display: flex;
   justify-content: center;
@@ -168,3 +158,4 @@ color: whitesmoke;
   font-size: 16px;
   font-weight: normal;
 }
+
