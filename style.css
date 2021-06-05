@@ -31,9 +31,11 @@
 
 
 
-.logo{padding: 5% 10%;}
+.logo{padding: 5% 7%; float: left;}
 
 .responsive {
-  width: 50%;
-  height: auto%;
+  width: 100%;
+  height: auto;
 }
+
+.aboutme{padding: 10% 0%;font-size: large;  width: 100%; height: auto;}
