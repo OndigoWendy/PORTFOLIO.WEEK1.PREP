@@ -92,22 +92,31 @@ body {
   display: grid;
 }
 
-.p1,.p2,.p3 {
+.p1,.p2{
   grid-row: 1;
-  width: 53%;
-  height: 300px;
+  width: 100%;
 }
 
-.p4,.p5,.p6 {
+.p3 .p4{
   grid-row: 2;
-  width: 90%;
-  height: 300px;
+  width: 100%;
+}
+
+.p5,.p6 {
+  grid-row: 3;
+  width: 100%;
 }
 
 .responsive3 {
-  max-width: 30vw;
+  max-width: 45vw;
 }
 
+.des{
+  color: rgb(14, 13, 13);
+  width: 45vw;
+  padding: 3% 0 0 3%;
+  height: 10vh;
+}
 
 /* Footer tag */
 .footer {
