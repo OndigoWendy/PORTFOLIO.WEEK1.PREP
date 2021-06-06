@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 12px;  background-color:rgb(160, 138, 142);
+  font-size: 12px;
+  background-color: rgb(160, 138, 142);
 }
 .navbar {
   background-color: #4d4d4f;
@@ -26,13 +27,13 @@ body {
 }
 
 .navbar a.active {
-  background-color: pink;
+  background-color: #ea1d6f;
   color: white;
 }
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: pink;
+  background-color: #ea1d6f;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -41,7 +42,8 @@ body {
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: gray;
 }
 
@@ -58,7 +60,7 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -71,23 +73,45 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show {
+  display: block;
+}
 
-
-.projects{
+.projects {
   display: grid;
 }
 
-.p1,.p2,.p3{ grid-row: 1;  width: 53%;  height: 300px; }
+.p1,
+.p2,
+.p3 {
+  grid-row: 1;
+  width: 53%;
+  height: 300px;
+}
 
-.responsive3{max-width: 30vw;}
+.responsive3 {
+  max-width: 30vw;
+}
 
-.p4,.p5,.p6{grid-row: 2; width: 90%; height: 300px; }
+.p4,
+.p5,
+.p6 {
+  grid-row: 2;
+  width: 90%;
+  height: 300px;
+}
 
-.p7,.p8,.p9{grid-row: 3;height: 300px; }
+.p7,
+.p8,
+.p9 {
+  grid-row: 3;
+  height: 300px;
+}
 
 .footer {
   display: flex;
@@ -95,8 +119,7 @@ body {
   align-items: center;
   margin-top: 20px;
   color: black;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
-
