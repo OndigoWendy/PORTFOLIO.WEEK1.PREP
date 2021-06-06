@@ -11,7 +11,7 @@
   text-align: center;
   padding: 15px 17px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5vw;
 }
 
 .navbar a:hover {
@@ -24,16 +24,9 @@
   color: white;
 }
 
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
 
 body {
-  font-size: 12px;
+  font-size: 1.5vw;
   background-color: rgb(160, 138, 142);
 }
 
