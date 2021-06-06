@@ -4,7 +4,8 @@
 }
 body {
   font-size: 1.5vw;
-  background-color: rgb(160, 138, 142);
+  background-color:  rgb(143, 108, 114);
+  padding: 0%;
 }
 
 /* Navigation bar styles */
@@ -62,6 +63,14 @@ padding: 5% 3% 3% 1%;
   color:whitesmoke;
   background-color: #4d4d4f;
 }
+
+#b1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 2vw;
+color: #ea1d6f;
+text-shadow: whitesmoke 1px 1px;
+}
+
 
 /* Skills logos */
 .logo2 {

@@ -1,7 +1,8 @@
 /* General styling */
 body {
   font-size: 1.5vw;
-  background-color: rgb(160, 138, 142);
+  background-color: rgb(143, 108, 114);
+  padding: 0%;
 }
 
 body,button,input {
