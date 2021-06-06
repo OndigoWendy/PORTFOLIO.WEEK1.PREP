@@ -1,3 +1,4 @@
+/* General styling */
 * {
   box-sizing: border-box;
 }
@@ -5,6 +6,8 @@ body {
   font-size: 1.5vw;
   background-color: rgb(160, 138, 142);
 }
+
+/* Navigation bar */
 .navbar {
   background-color: #4d4d4f;
   overflow: hidden;
@@ -82,15 +85,21 @@ body {
   display: block;
 }
 
+
+/* Project gallery */
 .projects {
   display: grid;
 }
 
-.p1,
-.p2,
-.p3 {
+.p1,.p2,.p3 {
   grid-row: 1;
   width: 53%;
+  height: 300px;
+}
+
+.p4,.p5,.p6 {
+  grid-row: 2;
+  width: 90%;
   height: 300px;
 }
 
@@ -98,21 +107,8 @@ body {
   max-width: 30vw;
 }
 
-.p4,
-.p5,
-.p6 {
-  grid-row: 2;
-  width: 90%;
-  height: 300px;
-}
 
-.p7,
-.p8,
-.p9 {
-  grid-row: 3;
-  height: 300px;
-}
-
+/* Footer tag */
 .footer {
   display: flex;
   justify-content: center;
