@@ -1,10 +1,14 @@
+/* General styling */
 * {
   box-sizing: border-box;
 }
 body {
-  font-size: 12px;
-  background-color: rgb(160, 138, 142);
+  font-size: 1.5vw;
+  background-color: rgb(143, 108, 114);
+  padding: 0%;
 }
+
+/* Navigation bar */
 .navbar {
   background-color: #4d4d4f;
   overflow: hidden;
@@ -18,7 +22,7 @@ body {
   text-align: center;
   padding: 15px 17px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5vw;
 }
 
 .navbar a:hover {
@@ -82,15 +86,21 @@ body {
   display: block;
 }
 
+
+/* Project gallery */
 .projects {
   display: grid;
 }
 
-.p1,
-.p2,
-.p3 {
+.p1,.p2,.p3 {
   grid-row: 1;
   width: 53%;
+  height: 300px;
+}
+
+.p4,.p5,.p6 {
+  grid-row: 2;
+  width: 90%;
   height: 300px;
 }
 
@@ -98,21 +108,8 @@ body {
   max-width: 30vw;
 }
 
-.p4,
-.p5,
-.p6 {
-  grid-row: 2;
-  width: 90%;
-  height: 300px;
-}
 
-.p7,
-.p8,
-.p9 {
-  grid-row: 3;
-  height: 300px;
-}
-
+/* Footer tag */
 .footer {
   display: flex;
   justify-content: center;

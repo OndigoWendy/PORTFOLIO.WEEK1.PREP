@@ -1,3 +1,14 @@
+/* General styling */
+body {
+  font-size: 1.5vw;
+  background-color: rgb(143, 108, 114);
+  padding: 0%;
+}
+
+body,button,input {
+  font-family: "Montserrat", sans-serif;
+}
+/* Navigation bar */
 .navbar {
   background-color: #4d4d4f;
   overflow: hidden;
@@ -11,7 +22,7 @@
   text-align: center;
   padding: 15px 17px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5vw;
 }
 
 .navbar a:hover {
@@ -24,25 +35,8 @@
   color: white;
 }
 
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
 
-body {
-  font-size: 12px;
-  background-color: rgb(160, 138, 142);
-}
-
-body,
-button,
-input {
-  font-family: "Montserrat", sans-serif;
-}
-
+/* Contact box */
 .contact-box {
   padding: 10%;
   border-radius: 15px;
@@ -78,7 +72,7 @@ input {
   flex-direction: column;
 }
 
-.app-title {
+.left-title {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -86,7 +80,7 @@ input {
   font-size: 26px;
 }
 
-.app-title:after {
+.left-title:after {
   content: "";
   display: block;
   position: absolute;
@@ -99,10 +93,11 @@ input {
 
 .my-contact {
   margin-top: auto;
-  font-size: 8px;
+  font-size: 1.5vw;
   color: #888;
 }
 
+/* Right items */
 .text-input {
   margin-bottom: 15px;
 }
@@ -149,6 +144,7 @@ input {
   color: #b9134f;
 }
 
+/* Footer tag */
 .footer {
   display: flex;
   justify-content: center;
@@ -160,6 +156,7 @@ input {
   font-weight: normal;
 }
 
+/* Controlling responsivity */
 @media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
@@ -169,15 +166,15 @@ input {
     margin-bottom: 30px;
   }
 
-  .app-title {
+  .left-title {
     flex-direction: row;
   }
 
-  .app-title span {
+  .left-title span {
     margin-right: 12px;
   }
 
-  .app-title:after {
+  .left-title:after {
     display: none;
   }
 }
