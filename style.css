@@ -40,11 +40,12 @@ body {
 display: flex;
 flex-direction: row;
 padding: 5% 3% 3% 1%;
+
 }
 
 /* Self Portrait */
 .logo {
-  padding: 5% 7%;
+  padding: 5% 5%;
   float: left;
 }
 
@@ -73,6 +74,8 @@ text-shadow: whitesmoke 1px 1px;
 
 
 /* Skills logos */
+
+h1{color: whitesmoke;}
 .logo2 {
   display: flex;
    grid-column: 1;
@@ -93,7 +96,7 @@ text-shadow: whitesmoke 1px 1px;
 .wrapper {
   display: grid;
   gap: 5%;
-  background-color: rgb(160, 138, 142);
+  background-color: rgb(143, 108, 114);
   color: whitesmoke;
 }
 
