@@ -4,7 +4,7 @@
 }
 body {
   font-size: 1.5vw;
-  background-color: rgb(143, 108, 114);
+  background-color: #1b242f;
   padding: 0%;
 }
 
@@ -112,7 +112,7 @@ body {
 }
 
 .des{
-  color: rgb(14, 13, 13);
+  color: whitesmoke;
   width: 45vw;
   padding: 3% 0 0 3%;
   height: 10vh;
